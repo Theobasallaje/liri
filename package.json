@@ -1,0 +1,25 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theobasallaje/liri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theobasallaje/liri/issues"
+  },
+  "homepage": "https://github.com/Theobasallaje/liri#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  }
+}
