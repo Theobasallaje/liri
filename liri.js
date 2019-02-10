@@ -15,8 +15,8 @@ var movieName = process.argv.slice(3).join("+");
 
 var spotify = new Spotify(keys.spotify);
 
-console.log(command);
-console.log(selection);
+// console.log(command);
+// console.log(selection);
 
 //functions
 function spotifyCommand(selection) {
