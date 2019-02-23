@@ -33,7 +33,7 @@ function spotifyCommand(selection) {
   });
 }
 
-if (command === "spotify-this") {
+if (command === "spotify-this-song") {
   spotifyCommand(selection);
 } else if (command === "concert-this") {
   var url = "https://rest.bandsintown.com/artists/" + selection + "/events?app_id=codingbootcamp";
